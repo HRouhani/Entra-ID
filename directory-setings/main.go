@@ -11,9 +11,9 @@ import (
 
 func main() {
 	// Azure AD application credentials
-	tenantID := "d9abc6fc-fd88-4480-a931-2f7939adbac2"
-	clientID := "c57e7b9b-9c3d-4035-92da-355405f911b2"
-	clientSecret := "M.w8Q~A1C8g9nteU~roFjfGOQrhZBUAq.79Ssad7"
+	tenantID := "d.....2"
+	clientID := "c.....2"
+	clientSecret := ""
 
 	// Step 1: Create a client secret credential for Azure AD authentication
 	cred, err := azidentity.NewClientSecretCredential(tenantID, clientID, clientSecret, nil)
